@@ -1,5 +1,7 @@
 import sys
 import pymysql
+from PyQt5.QtWidgets import QMessageBox
+
 from config import host, user, password, db_name
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -10,7 +12,7 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         MainWindow.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         MainWindow.setStyleSheet("background-color: rgb(85, 85, 127);\n"
-"")
+                                 "")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
@@ -59,7 +61,7 @@ class Ui_MainWindow(object):
         font.setPointSize(60)
         self.MB_label_2.setFont(font)
         self.MB_label_2.setStyleSheet("color: rgb(255, 170, 127);")
-        self.MB_label_2.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.MB_label_2.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.MB_label_2.setObjectName("MB_label_2")
         self.gridLayout_2.addWidget(self.MB_label_2, 0, 0, 1, 1)
         self.Log_password_textbox = QtWidgets.QLineEdit(self.gridLayoutWidget)
@@ -136,7 +138,7 @@ class Ui_MainWindow(object):
         font.setFamily("Bahnschrift SemiLight Condensed")
         font.setPointSize(20)
         self.Login_label_9.setFont(font)
-        self.Login_label_9.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.Login_label_9.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.Login_label_9.setObjectName("Login_label_9")
         self.gridLayout_3.addWidget(self.Login_label_9, 3, 0, 1, 1)
         self.Login_label_8 = QtWidgets.QLabel(self.gridLayoutWidget_2)
@@ -144,7 +146,7 @@ class Ui_MainWindow(object):
         font.setFamily("Bahnschrift SemiLight SemiConde")
         font.setPointSize(20)
         self.Login_label_8.setFont(font)
-        self.Login_label_8.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.Login_label_8.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.Login_label_8.setObjectName("Login_label_8")
         self.gridLayout_3.addWidget(self.Login_label_8, 4, 0, 1, 1)
         self.Password_textbox_7 = QtWidgets.QLineEdit(self.gridLayoutWidget_2)
@@ -166,7 +168,7 @@ class Ui_MainWindow(object):
         font.setFamily("Bahnschrift SemiLight Condensed")
         font.setPointSize(20)
         self.Login_label_11.setFont(font)
-        self.Login_label_11.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.Login_label_11.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.Login_label_11.setObjectName("Login_label_11")
         self.gridLayout_3.addWidget(self.Login_label_11, 8, 0, 1, 1)
         self.Password_textbox_8 = QtWidgets.QLineEdit(self.gridLayoutWidget_2)
@@ -188,7 +190,7 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.Login_label_12.setFont(font)
         self.Login_label_12.setStyleSheet("")
-        self.Login_label_12.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.Login_label_12.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.Login_label_12.setObjectName("Login_label_12")
         self.gridLayout_3.addWidget(self.Login_label_12, 9, 0, 1, 1)
         self.Login_label_13 = QtWidgets.QLabel(self.gridLayoutWidget_2)
@@ -201,7 +203,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.Login_label_13.setFont(font)
-        self.Login_label_13.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.Login_label_13.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.Login_label_13.setObjectName("Login_label_13")
         self.gridLayout_3.addWidget(self.Login_label_13, 1, 1, 1, 1)
         self.MB_label_3 = QtWidgets.QLabel(self.gridLayoutWidget_2)
@@ -210,7 +212,7 @@ class Ui_MainWindow(object):
         font.setPointSize(60)
         self.MB_label_3.setFont(font)
         self.MB_label_3.setStyleSheet("color: rgb(255, 170, 127);")
-        self.MB_label_3.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.MB_label_3.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.MB_label_3.setObjectName("MB_label_3")
         self.gridLayout_3.addWidget(self.MB_label_3, 0, 1, 1, 1)
         self.Login_label_10 = QtWidgets.QLabel(self.gridLayoutWidget_2)
@@ -218,7 +220,7 @@ class Ui_MainWindow(object):
         font.setFamily("Bahnschrift SemiLight Condensed")
         font.setPointSize(20)
         self.Login_label_10.setFont(font)
-        self.Login_label_10.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.Login_label_10.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.Login_label_10.setObjectName("Login_label_10")
         self.gridLayout_3.addWidget(self.Login_label_10, 6, 0, 1, 1)
         self.Reg_entr_btn_3 = QtWidgets.QPushButton(self.gridLayoutWidget_2)
@@ -317,16 +319,16 @@ class Ui_MainWindow(object):
         self.Pl_2_btn.setGeometry(QtCore.QRect(630, 360, 150, 150))
         self.Pl_2_btn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Pl_2_btn.setStyleSheet("background-image: url(C:/BD 4 sem/Курсач/альб_2.jpg);\n"
-"    background-repeat: no-repeat;\n"
-"    background-position: center;")
+                                    "    background-repeat: no-repeat;\n"
+                                    "    background-position: center;")
         self.Pl_2_btn.setText("")
         self.Pl_2_btn.setObjectName("Pl_2_btn")
         self.Pl_1_btn = QtWidgets.QPushButton(self.page_3)
         self.Pl_1_btn.setGeometry(QtCore.QRect(630, 180, 150, 150))
         self.Pl_1_btn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Pl_1_btn.setStyleSheet("background-image: url(C:/BD 4 sem/Курсач/альб_1.jpg);\n"
-"    background-repeat: no-repeat;\n"
-"    background-position: center;")
+                                    "    background-repeat: no-repeat;\n"
+                                    "    background-position: center;")
         self.Pl_1_btn.setText("")
         self.Pl_1_btn.setObjectName("Pl_1_btn")
         self.Create_pl_btn = QtWidgets.QPushButton(self.page_3)
@@ -440,7 +442,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         self.Playlist_label.setFont(font)
         self.Playlist_label.setStyleSheet("color: rgb(255, 170, 0);")
-        self.Playlist_label.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignHCenter)
+        self.Playlist_label.setAlignment(QtCore.Qt.AlignBottom | QtCore.Qt.AlignHCenter)
         self.Playlist_label.setObjectName("Playlist_label")
         self.Out_to_main_btn = QtWidgets.QPushButton(self.page_4)
         self.Out_to_main_btn.setGeometry(QtCore.QRect(24, 480, 751, 61))
@@ -486,17 +488,38 @@ class Ui_MainWindow(object):
 
         self.stackedWidget.setCurrentIndex(0)
 
-        #Кнопка "регистрация" на окне входа
+        # Кнопка "регистрация" на окне входа
         self.Log_registration_btn.clicked.connect(self.to_reg_page)
+
+        self.Reg_entr_btn_3.clicked.connect(self.register)
 
         # Кнопка "вернуться ко входу" на окне регистрации
         self.Reg_entr_btn_4.clicked.connect(self.to_log_page)
+
+        self.Reg_entr_btn_2.clicked.connect(self.login)
 
     def to_reg_page(self):
         self.stackedWidget.setCurrentIndex(1)
 
     def to_log_page(self):
         self.stackedWidget.setCurrentIndex(0)
+
+    def to_main_page(self):
+        self.stackedWidget.setCurrentIndex(2)
+
+    def show_error_message(self, text):
+            msg = QMessageBox()
+            msg.setWindowTitle("Ошибка")
+            msg.setText(text)
+            msg.setIcon(QMessageBox.Warning)
+            msg.exec_()
+
+    def show_message(self, text):
+            msg = QMessageBox()
+            msg.setWindowTitle("Успех")
+            msg.setText(text)
+            msg.setIcon(QMessageBox.Warning)
+            msg.exec_()
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -516,20 +539,17 @@ class Ui_MainWindow(object):
         self.Reg_entr_btn_3.setText(_translate("MainWindow", "Зарегистрироваться"))
         self.Reg_entr_btn_4.setText(_translate("MainWindow", "Вернуться ко входу"))
         self.Create_pl_btn.setText(_translate("MainWindow", "Создать Плейлист"))
-        self.Popular_pl_label.setText(_translate("MainWindow", "Популярные \n"
-"плейлисты"))
+        self.Popular_pl_label.setText(_translate("MainWindow", "Популярные \nплейлисты"))
         self.Main_label.setText(_translate("MainWindow", "Создайте собственный плейлист"))
         self.Mood_label.setText(_translate("MainWindow", "Какое у вас сейчас настроение?"))
-        self.Language_label.setText(_translate("MainWindow", "На каком языке вы бы \n"
-"хотели слушать музыку?"))
+        self.Language_label.setText(_translate("MainWindow", "На каком языке вы бы \nхотели слушать музыку?"))
         self.Language_combobox.setItemText(0, _translate("MainWindow", "..."))
         self.Language_combobox.setItemText(1, _translate("MainWindow", "Русский"))
         self.Language_combobox.setItemText(2, _translate("MainWindow", "Английский"))
         self.Language_combobox.setItemText(3, _translate("MainWindow", "Японский"))
         self.Language_combobox.setItemText(4, _translate("MainWindow", "Без вокала"))
         self.Out_to_reg_1_btn.setText(_translate("MainWindow", "MB"))
-        self.Genre_label.setText(_translate("MainWindow", "Какие музыкальные жанры\n"
-" вы предпочитаете?"))
+        self.Genre_label.setText(_translate("MainWindow", "Какие музыкальные жанры\nвы предпочитаете?"))
         self.Genre_combobox.setItemText(0, _translate("MainWindow", "..."))
         self.Genre_combobox.setItemText(1, _translate("MainWindow", "Рок"))
         self.Genre_combobox.setItemText(2, _translate("MainWindow", "Поп"))
@@ -543,11 +563,89 @@ class Ui_MainWindow(object):
         self.Out_action.setText(_translate("MainWindow", "Выйти"))
         self.action.setText(_translate("MainWindow", "Важно!"))
 
+    def login(self):
+        username = self.Log_login_textbox.text()
+        password1 = self.Log_password_textbox.text()
+        # Проверка логина и пароля в базе данных
+        try:
+            # Подключение к базе данных
+            connection = pymysql.connect(
+                host=host,
+                user=user,
+                password=password,
+                database=db_name
+            )
+            print("Connection already")
 
+            # Создание объекта курсора
+            cursor = connection.cursor()
+
+            # Выполнение SQL-запроса для проверки логина и пароля
+            query = "SELECT * FROM users WHERE Login=%s AND Password=%s"
+            cursor.execute(query, (username, password1))
+
+            # Получение результата запроса
+            result = cursor.fetchone()
+
+            print(result)
+
+            if result:
+                self.to_main_page()  # Переключение на индекс главного окна
+            else:
+                self.show_error_message("Неверный логин или пароль.")
+
+            cursor.close()
+            connection.close()
+
+        except pymysql.Error as e:
+            print(f"Ошибка при подключении к базе данных: {e}")
+
+    def register(self):
+        username = self.Reg_login_textbox_3.text()
+        password1 = self.Password_textbox_9.text()
+        mail = self.Reg_emai_textbox.text()
+        Name = self.Password_textbox_7.text()
+        Surname = self.Password_textbox_8.text()
+        try:
+            # Подключение к базе данных
+            connection = pymysql.connect(
+                host=host,
+                user=user,
+                password=password,
+                database=db_name
+            )
+            print("Connection already")
+            # Создание объекта курсора
+            cursor = connection.cursor()
+
+            # Проверка, что логин не занят
+            query = "SELECT * FROM users WHERE Login=%s"
+            cursor.execute(query, (username,))
+            result = cursor.fetchone()
+
+            if result:
+                self.show_error_message("Логин уже занят.")
+                cursor.close()
+                connection.close()
+                return
+
+            # Вставка нового пользователя в базу данных
+            query = "INSERT INTO users (Login, Password, `e-mail`, Name, Surname) VALUES (%s, %s, %s, %s, %s)"
+            cursor.execute(query, (username, password1, mail, Name, Surname))
+            connection.commit()
+
+            self.show_message("Регистрация прошла успешно.")
+
+            cursor.close()
+            connection.close()
+
+            self.to_log_page()  # Переключение на индекс окна входа
+
+        except pymysql.Error as e:
+            print(f"Ошибка при подключении к базе данных: {e}")
 
 
 if __name__ == "__main__":
-    import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
