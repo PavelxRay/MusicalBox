@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 85, 127);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>543</width>
+        <height>445</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="10" column="0">
+        <widget class="QPushButton" name="Reg_entr_btn_2">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 170, 127);</string>
+         </property>
+         <property name="text">
+          <string>Войти</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLineEdit" name="Log_login_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="Password_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Пароль</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="MB_label_2">
+         <property name="font">
+          <font>
+           <family>Niagara Engraved</family>
+           <pointsize>60</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 170, 127);</string>
+         </property>
+         <property name="text">
+          <string>MUSICALBOX</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLineEdit" name="Log_password_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="empty_4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="Login_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Логин</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="empty_3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="empty_5">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="empty_2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="empty_1">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QPushButton" name="Log_registration_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Зарегистрироваться</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="empty_6">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>543</width>
+        <height>415</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="Reg_emai_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="Login_label_9">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Логин</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="Login_label_8">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight SemiConde</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>e-mail</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="Password_textbox_7">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="Reg_login_textbox_3">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="Login_label_11">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Фамилия</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLineEdit" name="Password_textbox_8">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLineEdit" name="Password_textbox_9">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="Login_label_12">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>Пароль</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="Login_label_13">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+          </font>
+         </property>
+         <property name="text">
+          <string>Регистрация</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="MB_label_3">
+         <property name="font">
+          <font>
+           <family>Niagara Engraved</family>
+           <pointsize>60</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 170, 127);</string>
+         </property>
+         <property name="text">
+          <string>MUSICALBOX</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="Login_label_10">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Имя</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QPushButton" name="Reg_entr_btn_4">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>Вернуться ко входу</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QPushButton" name="Reg_entr_btn_3">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Зарегистрироваться</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>180</y>
+        <width>531</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QRadioButton" name="Peace_radio_btn">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Покой.png</normaloff>
+           <normalon>Покой_Выб.png</normalon>
+           <disabledon>Покой_Выб.png</disabledon>
+           <activeon>Покой_Выб.png</activeon>
+           <selectedon>Покой_Выб.png</selectedon>Покой.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="Sad_radio_btn">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Грустно_2.png</normaloff>Грустно_2.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="Angry_radio_btn">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Гнев.png</normaloff>Гнев.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="Happy_radio_btn">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Весело.png</normaloff>Весело.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="Pl_2_btn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>360</y>
+        <width>150</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(альб_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Pl_1_btn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>180</y>
+        <width>150</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(альб_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Create_pl_btn">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>482</y>
+        <width>531</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiLight Condensed</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 170, 127);</string>
+      </property>
+      <property name="text">
+       <string>Создать Плейлист</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Popular_pl_label">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>110</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Популярные 
+плейлисты</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Main_label">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>40</y>
+        <width>441</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiLight Condensed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Создайте собственный плейлист</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Mood_label">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>110</y>
+        <width>351</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiLight Condensed</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Какое у вас сейчас настроение?</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>410</y>
+        <width>531</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QLabel" name="Language_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>17</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>На каком языке вы бы 
+хотели слушать музыку?</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="Language_combobox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Русский</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Английский</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Японский</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Без вокала</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="Main_to_reg_btn">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>10</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Niagara Engraved</family>
+        <pointsize>45</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>MB</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>330</y>
+        <width>531</width>
+        <height>68</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QLabel" name="Genre_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>17</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Какие музыкальные жанры
+ вы предпочитаете?</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="Genre_combobox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Рок</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Поп</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Рэп</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Phonk</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Лирика</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="Main_user_changer_btn">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>10</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiLight Condensed</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Изменить
+ пользователей</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="Playlist_label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>741</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiLight Condensed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Созданный плейлист</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Out_to_reg_btn">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>10</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Niagara Engraved</family>
+        <pointsize>45</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>MB</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="Add_sons_list">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>100</y>
+        <width>751</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>123</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>456</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>789</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>000</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>111</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>222</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>333</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>444</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>555</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>666</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>777</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>888</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>999</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>460</y>
+        <width>741</width>
+        <height>92</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0">
+        <widget class="QPushButton" name="Add_del_songs_from_BD_btn_2">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Удалить выбранные песни из БД</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="Add_del_songs_from_pl_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>Удалить выбранные песни из плейлиста</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="Add_to_pl_page_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>Добавить новую песню в плейлист</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="Out_to_main_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 170, 127);</string>
+         </property>
+         <property name="text">
+          <string>Выйти на главную страницу</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QPushButton" name="Add_to_reg_btn">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>10</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Niagara Engraved</family>
+        <pointsize>45</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>MB</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>543</width>
+        <height>415</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="Add_autor_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="Add_autor_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight SemiConde</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Автор</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="Add_name_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Название песни</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="Add_albom_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="Add_href_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QPushButton" name="Add_to_pl_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Добавить в плейлист</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="Add_date_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="Add_name_textbox">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="Add_date_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Дата создания</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="Add_albom_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Альбом</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QPushButton" name="Back_to_pl_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>Вернуться к плейлисту</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="Add_href_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Ссылка Youtube</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="Add_to_pl_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>30</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 170, 0);</string>
+         </property>
+         <property name="text">
+          <string>Добавление песен</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QLabel" name="Users_lable">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>30</y>
+        <width>741</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiLight Condensed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Пользователи</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>490</y>
+        <width>751</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="Delete_user_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Удалить выбранные песни из БД</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="Users_to_main_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 170, 127);</string>
+         </property>
+         <property name="text">
+          <string>Выйти на главную страницу</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QListWidget" name="Users_list">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>751</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>123</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>456</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>789</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>000</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>111</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>222</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>333</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>444</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>555</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>666</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>777</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>888</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>999</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="Change_data_user_btn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>450</y>
+        <width>751</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiLight Condensed</family>
+        <pointsize>18</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Изменить данные выбранного пользователя</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_7">
+     <widget class="QWidget" name="gridLayoutWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>543</width>
+        <height>415</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_14">
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="Ch_email_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="Ch_login_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Логин</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="Ch_email_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight SemiConde</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>e-mail</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="Ch_name_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="Ch_login_textbox">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="Ch_surename_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Фамилия</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLineEdit" name="Ch_surename_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLineEdit" name="Ch_password_textbox">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="Ch_password_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>Пароль</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="Change_data_users_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+          </font>
+         </property>
+         <property name="text">
+          <string>Изменение данных пользователя</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="MB_label_8">
+         <property name="font">
+          <font>
+           <family>Niagara Engraved</family>
+           <pointsize>60</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 170, 127);</string>
+         </property>
+         <property name="text">
+          <string>MUSICALBOX</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="Ch_name_label">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Имя</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QPushButton" name="Chnge_to_main_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>Вернуться на главную страницу</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QPushButton" name="Change_data_user_last_page_btn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiLight Condensed</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Изменить данные</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="separator"/>
+    <addaction name="Out_action"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Out_action">
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>Важно!</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
